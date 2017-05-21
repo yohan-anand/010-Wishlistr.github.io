@@ -1,0 +1,116 @@
+body {
+  background-color: #FFFFFF;
+}
+
+h5 {
+  color: #91B453;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+hr.big-blue {
+  border: 0;
+  margin: 0;
+  box-shadow: 0 0 0 3px #CFE0EA;
+}
+
+hr.big-blue:after {  /* Not really supposed to work, but does */
+  content: "\00a0";  /* Prevent margin collapse */
+}
+
+.btn{
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  border: 2px solid #CFE0EA;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+}
+
+.nav li a:hover, .nav li a:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.icon-bar {
+  color: lightgrey;
+}
+
+.my-navbar {
+  background: #2B363F;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#5D6A74, #2B363F);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5D6A74, #2B363F);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5D6A74, #2B363F);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#5D6A74, #2B363F);
+  /* Standard syntax */
+  border: none;
+  border-radius: 0;
+}
+
+.my-green-bar {
+  background: -webkit-linear-gradient(#B5D15D, #CBE875);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#B5D15D, #CBE875);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#B5D15D, #CBE875);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#B5D15D, #CBE875);
+  /* Standard syntax */
+  border-top: 3px solid #91B453;
+  border-bottom: 1px solid #91B453;
+  margin-top: 10px;
+}
+
+.my-green-bar-label{
+  font-size: 18px;
+  color: white;
+}
+
+.my-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-flex span , .nav li a{
+  color: lightgrey;
+}
+
+.my-right-p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.my-input-hint {
+  display: inline-block;
+  float: none;
+  font-size: 10px;
+  color: #999999;
+}
+
+.control-label {
+  font-size: 12px;
+}
+
+.blue-box {
+  padding: 15px 40px 15px 30px;
+  background-color: #d9edf7;
+  margin: 0 14px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.lightgrey {
+  color: lightgrey;
+}
